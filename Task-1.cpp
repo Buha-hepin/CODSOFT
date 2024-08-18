@@ -3,8 +3,7 @@
 #include <ctime>
 using namespace std;
 int main() 
-{
-    // Initialize random number
+{// Initialize random number
     srand(time(0));
     // Generates random number between 1 and 100
     int randomNumber = rand() % 100 + 1;
